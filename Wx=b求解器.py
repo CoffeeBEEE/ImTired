@@ -151,9 +151,9 @@ def solve(eqs:list):
         print(f"错误: {e}")
 
 if __name__ == "__main__":
-
+    #案例
     eqs = [
-        "x_1 + 1**2 = x_2",
-        "x_2 + 3 =  4"
+        "-x_1 + 3**2*(x_1 - x_2) = x_2 + 1",
+        "x_2 + x_1 =  5"
     ]
     solve(eqs)
